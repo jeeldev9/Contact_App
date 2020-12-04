@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text('Contact App'),
+          backgroundColor: Colors.teal,
         ),
         backgroundColor: Colors.teal,
         body: SafeArea(
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
                     style: TextStyle(
                       fontSize: 30,
                       color: Colors.white,
-                      fontFamily: 'serif',
+                      fontFamily: 'Pacifico',
                     ),
                   ),
                 ),
